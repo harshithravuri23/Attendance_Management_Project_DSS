@@ -3,15 +3,19 @@ body {
   background-color: #f4f4f4;
   text-align: center;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
  
 }
 .login-container, .profile-section, .attendance-card {
   background-color: white;
-  padding: 20px;
-  margin: 20px auto;
+  padding: 10px;
+  margin: 10px 10px 10px 10px;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
+  width: 400px;
 }
 
 
@@ -83,5 +87,21 @@ a {
   display: block;
   margin-top: 20px;
   text-decoration: none;
-  color: blue;
+  background-color: #4CAF50; /* Green */
+    color: #ffffff; /* White */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+a:hover{
+  background-color:#4CAF50 ;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px);
+  color: white;
+  text-decoration: none;
 }
