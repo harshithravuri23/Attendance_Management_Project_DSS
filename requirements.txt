@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Flask
 Gunicorn
 Pandas
@@ -8,4 +7,4 @@ Flask
 Gunicorn
 pandas
 openpyxl
->>>>>>> 35c0d56a98448e4df7bcb030ec374482e24f8925
+
