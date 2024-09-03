@@ -2,9 +2,5 @@ Flask
 Gunicorn
 Pandas
 openpyxl
-=======
-Flask
-Gunicorn
-pandas
-openpyxl
+
 
