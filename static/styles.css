@@ -3,30 +3,24 @@ body {
   background-color: #f4f4f4;
   text-align: center;
   padding: 50px;
-<<<<<<< HEAD
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-=======
->>>>>>> 35c0d56a98448e4df7bcb030ec374482e24f8925
+
+
  
 }
 .login-container, .profile-section, .attendance-card {
+  width: 400px;
   background-color: white;
-<<<<<<< HEAD
   padding: 10px;
   margin: 10px 10px 10px 10px;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1);
-  width: 400px;
-=======
-  padding: 20px;
-  margin: 20px auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  width: 500px;
->>>>>>> 35c0d56a98448e4df7bcb030ec374482e24f8925
+  margin: 0;
+
+
 }
 
 
@@ -116,7 +110,6 @@ a:hover{
   transform: translateY(-2px);
   color: white;
   text-decoration: none;
-=======
   color: blue;
 
 }
